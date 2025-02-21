@@ -5,9 +5,10 @@
   "scripts": {
     "dev": "webpack -w",
     "build": "webpack",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d docs"
   },
-  "homepage": "https://MatheusVenturaNellessen.github.io/<seu-repositorio>/",
+  "homepage": "https://MatheusVenturaNellessen.github.io/teste/",
   "keywords": [],
   "author": "",
   "license": "ISC",
